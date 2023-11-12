@@ -1,7 +1,5 @@
-import typing
-from time import sleep
 import sqlite3 as sql
-from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5 import QtWidgets
 from PyQt5.Qt import *
 import life
 import ast
