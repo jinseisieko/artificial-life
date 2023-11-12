@@ -264,7 +264,7 @@ class Bot(Point):
             if r == 3:
                 self.color = color[:-1] + [(color[2] + 1) % 255]
 
-    def get_indexD(self):
+    def get_indexD(self): 
         s1, s2 = self.map_.get_bot_sees_all(self.x, self.y, self.alpha)
         s1 = str(s1.__class__.__name__)
         s2 = str(s2.__class__.__name__)
